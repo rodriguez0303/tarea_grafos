@@ -11,7 +11,7 @@ public class MainPrerrequisitos {
                 "Algoritmos I",
                 "Bases de Datos I",
                 "Algoritmos II",
-                "Proyecto de Software"
+                "Paradigmas de Programacion"
         };
 
         // Matriz de adyacencia (grafo dirigido).
@@ -21,8 +21,8 @@ public class MainPrerrequisitos {
         grafo[0][1] = 1; // Introducción a la Programación -> Algoritmos I
         grafo[0][2] = 1; // Introducción a la Programación -> Bases de Datos I
         grafo[1][3] = 1; // Algoritmos I -> Algoritmos II
-        grafo[2][4] = 1; // Bases de Datos I -> Proyecto de Software
-        grafo[3][4] = 1; // Algoritmos II -> Proyecto de Software
+        grafo[2][4] = 1; // Bases de Datos I -> Proyecto de Programación
+        grafo[3][4] = 1; // Algoritmos II -> Paradigmas de Programación
 
         // Se muestra las relaciones del grafo.
         System.out.println("PRERREQUISITOS UNIVERSITARIOS");
